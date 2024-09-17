@@ -1,0 +1,103 @@
+body {
+  background-image: url("Space.jpg");
+}
+
+.containermain {
+    background-color:#adf6ff  ;
+    width: 100 px;
+    height: 1200px;
+    margin-left: 315px;
+    margin-right: 400px;
+
+    color: #051d5d ;
+}
+
+.container1 {
+    background-color: #adf6ff ;
+    width: 100 px;
+    height: 1200px;
+
+
+    border: 20px solid #051d5d ;
+    color: black;
+}
+
+
+
+
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: #0542ad    ;
+    background-color: #adf6ff ;
+    text-shadow: 0 0 5px #05fff4 ;
+
+
+
+}
+
+
+
+.profile img {
+    padding-left: 310px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Menu {
+    list-style-type: none;
+    display: flex;
+    background-color: #b2f3ff ;
+    border: 2px solid #333; /* Border around each item */
+    border-radius: 12px; /* Makes the corners rounded */
+
+}
+
+.Menu ol {
+    margin-right: 20px; 
+    margin-left: 80px;
+    text-align: center;
+    padding: 10px 20px; 
+    font-size: 24px;
+    border: 2px solid #333; 
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.Menu ol:last-child {
+    margin-right: 0; 
+}
+.Quote {
+    list-style-type: none;
+    display: flex;
+    background-color: #b2f3ff  ;
+
+    border-radius: 12px; /* Makes the corners rounded */
+    border: 2px solid #333; /* Border around each item */
+
+}
+
+.Quote ol{
+    text-align: center;
+    font-size: 35px;
+    color: #0e3491   ;
+    background-color: #adf6ff ;
+    text-shadow: 0 0 5px white ;
+    padding-left: 100px;
+
+
+
+}
+
+
+
+.Information ol{
+    list-style-type: none;
+    display: flex;
+    background-color: whitesmoke ;
+
+    border-radius: 12px; /* Makes the corners rounded */
+    border: 2px solid #333; /* Border around each item */
+    font-size: 20px;
+}
